@@ -1,0 +1,39 @@
+.recipe-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .recipe-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .ingredients-list, .steps-list {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ingredients-list li, .steps-list li {
+    margin: 5px 0;
+  }
+  
+  .ingredients-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .steps-list {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  

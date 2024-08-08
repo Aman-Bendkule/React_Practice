@@ -1,0 +1,39 @@
+.todo-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .todo-input-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input-container input {
+    padding: 5px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .todo-input-container button {
+    padding: 5px 10px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .todo-list li button {
+    padding: 5px;
+  }
+  
