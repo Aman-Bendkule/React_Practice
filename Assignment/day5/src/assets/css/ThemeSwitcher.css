@@ -1,0 +1,43 @@
+/* Default light theme styles */
+.theme-container.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .theme-container.light h1 {
+    color: #000000;
+  }
+  
+  .theme-container.light .theme-button {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  /* Dark theme styles */
+  .theme-container.dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .theme-container.dark h1 {
+    color: #ffffff;
+  }
+  
+  .theme-container.dark .theme-button {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .theme-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .theme-button:hover {
+    opacity: 0.8;
+  }
+  
